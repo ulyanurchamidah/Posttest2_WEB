@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 500px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+nav{
+    position: static;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px 0 10px 20px;
+}
+.login{
+    background-image: url(wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.bd{
+    background-image: url(wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.bd1{
+    background-image: url(wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.bd2{
+    background-image: url(wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.bd3{
+    background-image: url(wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.bg:hover{
+
+    padding:10px 5px 10px;
+    border-style: groove;
+
+}
+.hh{
+    grid-area: content;
+    background: linear-gradient(to right, pink, rgb(234, 75, 157),
+   rgb(0, 0, 0)) ;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 20px 20px 20px 50px;
+    margin: 20px 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.q{
+    background: linear-gradient(to right, rgb(49, 49, 49), rgb(234, 75, 157),
+   pink) ;
+    color:white;
+    text-align: center;
+    padding: 15px 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px 300px;
+}
+form{
+    margin: 120px auto;
+    width: 500px;
+    background:pink;
+    border-radius: 4px;
+}
+.profil{
+    color:rgb(53, 88, 42);
+    font-family: monospace;
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 103, 203);
+    font-size: 20px;
+    padding: 15px;
+    
+}
+.con{
+    background-color: antiquewhite;
+    padding: 20px 0 40px 40px;
+    margin: 40px 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    border-radius: 100px;
+}
+.if{
+    padding: 100px 0 100px 400px;
+}
+.con h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.h4{
+    background: linear-gradient(to right, pink, rgb(234, 75, 157),
+   rgb(0, 0, 0)) ;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 20px 10px 20px 50px;
+    margin: 20px 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+.hi{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, pink, rgb(234, 75, 157),
+    rgb(0, 0, 0)) ;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    width: 102%;
+    margin-left: -10px;
+}
+.hhh{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.btn{
+    padding: 20px 20px 20px 20px;
+    font-size: medium;
+    background-color:pink;
+    margin:100px 500px ;
+    color: #000000;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, whitesmoke 50%, transparent 110%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+}
+footer{
+    position:absolute;
+    bottom: 0px;
+    
+}

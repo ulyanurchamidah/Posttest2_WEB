@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body class="bd">
+</body>
+
+    <header>
+        <img src="logo.png" alt="logo">
+    </header>
+    <nav>
+        <a class="bg"href="Beranda.html">Beranda</a>
+        <a class="bg"href="form.html"><span style="color: rgb(253, 253, 253);">form</span></a>
+        <a class="bg"href="profil.html">profil</a>
+        <a class="bg"href="about.html">about</a> </a>
+    </nav>
+        <form id="myForm">
+         <h2 class="hi">Tiket Blackpink</h2>
+          <table>
+            <div>
+                <label for="name">Nama:</label>
+                <input style="color: rgb(35, 35, 35);" type="text" id="name" name="name"><br><br>
+        
+                <label for="email">Email:</label>
+                <input style="color: rgb(35, 35, 35);" type="email" id="email" name="email"><br><br>
+        
+                <label for="kursi">Kursi:</label>
+                <input type="checkbox" id="kursi1" name="kursi[]" value="Depan">
+                <label for="kursi1">Depan</label>
+                <input type="checkbox" id="kursi2" name="kursi[]" value="Tengah">
+                <label for="kursi2">Tengah</label>
+                <input type="checkbox" id="kursi3" name="kursi[]" value="Belakang">
+                <label for="kursi3">Belakang</label><br><br>
+        
+                <label for="gender">Jenis Kelamin:</label>
+                <input type="radio" id="gender1" name="gender" value="Laki-laki">
+                <label for="gender1">Laki-laki</label>
+                <input type="radio" id="gender2" name="gender" value="Perempuan">
+                <label for="gender2">Perempuan</label><br><br>
+        
+                <label for="country">Negara:</label>
+                <select style="color: rgb(35, 35, 35);" id="country" name="country">
+                    <option style="color: rgb(35, 35, 35);" value="Indonesia">Indonesia</option>
+                    <option style="color: rgb(35, 35, 35);" value="Malaysia">Malaysia</option>
+                    <option style="color: rgb(35, 35, 35);" value="Korea">Korea</option>
+                </select><br><br>
+        
+                <label for="message">Pesan untuk panitia:</label><br>
+                <textarea style="color: rgb(35, 35, 35);" id="message" name="message" rows="5" cols="30"></textarea><br>
+                <input type="submit" value="Simpan" style="color: rgb(35, 35, 35);">
+                <h2>Data Input :</h2>
+                <ul id="dataInput"></ul>
+           </table>
+    <!-- <footer>
+        <p>2023 BLACKPINK@ulyachmdh_</p>
+    </footer> -->
+    </div>
+        </form>
+</body>
+<script src="form.js"></script>
+</html>

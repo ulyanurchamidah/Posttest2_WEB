@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+    body{
+        align-items: center;
+        display: flex;
+        background-image: url(wallpaper.jpg);
+        background-size:cover;
+        background-position: center;
+        justify-content: center;
+    }
+    h1{
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .login{
+        margin:80px;
+        color: white;
+        background:rgb(0, 0, 0);
+        border-radius: 20px;
+        box-sizing: border-box;
+         height: 450px;
+         padding: 50px;
+         width: 360px;
+    }
+    .bt{
+      background-color:pink;
+      border-radius: 12px;
+      border: 0;
+      box-sizing: border-box;
+      color: #131313;
+      cursor: pointer;
+      font-size: 18px;
+      height: 50px;
+      margin-top: 38px;
+      outline: 0;
+      text-align: center;
+      width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(247, 103, 203);
+        font-size: 20px;
+        padding: 15px;
+    }
+    footer{
+        position: absolute;
+        bottom: 0px;
+        
+    }
+    
+    
